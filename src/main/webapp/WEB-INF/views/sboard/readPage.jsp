@@ -284,7 +284,7 @@ var printData = function(replyArr){
 			url: "/replies/" + rno,
 			headers: {
 				"Content-Type" : "application/json",
-				"X-HTTP-Method-Overide" : "put"
+				"X-HTTP-Method-Override" : "put"
 			},
 			
 			dataType: "text",
@@ -307,7 +307,7 @@ var printData = function(replyArr){
 			type: "delete",
 			url: "/replies/" + rno,
 			headers: {
-				"Content-Type" : "application/jsos",
+				"Content-Type" : "application/json",
 				"X-HTTP-Method-Override" : "delete",
 			},
 			dataType: "text",

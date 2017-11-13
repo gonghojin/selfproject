@@ -107,7 +107,7 @@
 	</select>
 	
 	<delete id = "deleteAttach">
-		delete from tbl_table where bno = #{bno}
+		delete from tbl_attach where bno = #{bno}
 	</delete>
 	
 	<insert id = "replaceAttach">
